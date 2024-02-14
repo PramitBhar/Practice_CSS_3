@@ -143,8 +143,13 @@
 #search-icon {
     padding-top: 20px;
     color: #1797b1;
+    cursor: pointer;
+    transition: ease-in 0.2s;
 }
-
+#search-icon:hover{
+    color: #ff7220;
+    transition: ease-in 0.2s;
+}
 .nav-items a:hover {
     color: black;
 }
